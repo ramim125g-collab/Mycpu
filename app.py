@@ -13,9 +13,9 @@ def start_bot():
   except Exception as e:
     print(f"[ERROR] NPM install failed: {e}")
 
-  host = os.environ.get("MC_HOST", "localhost")
+  host = os.environ.get("MC_HOST", "Killanimal.aternos.me")
   port = os.environ.get("MC_PORT", "25565")
-  bot_name = os.environ.get("BOT_NAME", "CraftBot_Pro")
+  bot_name = os.environ.get("BOT_NAME", "CrafnnnntBot_Pro")
 
   print(f"[RUNNER] Starting Bot -> Target: {host}:{port} | Name: {bot_name}")
 
